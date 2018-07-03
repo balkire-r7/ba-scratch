@@ -53,7 +53,7 @@
 
 #	      TERRAFORM STUFF	            #
 
-#### Dev/Deploy Process
+### Dev/Deploy Process
 This is the typical process flow of developing, tweaking, and deploying new or updated terraform code
 
 1. Select the workspace you want to use and then initialize it
@@ -105,7 +105,7 @@ terraform import \
 ### Deactivate either when done with the envrionment or the project associated with the environment
 `deactivate`
 
-#	    				KOMMAND STUFF			      #
+#	    				KOMAND STUFF			      #
 
 ### Processs for debugging
 
