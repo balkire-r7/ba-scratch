@@ -79,6 +79,7 @@ terraform plan \
 ```
 
 4. Apply the execution plan with `terraform apply`
+
 `terraform apply out.plan`
 
 1. If you need to import variable files into the workspace, use `terraform import`
