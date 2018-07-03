@@ -28,7 +28,7 @@
 
 # INSTALLING STUFF FROM TERMINAL ON A MAC #
 
-### Install things from command line
+### Install brew
 
 #### you can use ruby eval and passit a command object
 `ruby -e "$(curl -fsSL https://raw.github.com/whatever.sh)"`
@@ -39,6 +39,7 @@
 
 `brew install wget --with-libressl`
 
+### Install MacPorts
 
 #### ...you could also do more work, be sort of oldschool and use Macports
 `wget https://github.com/macports/macports-base/releases/download/v2.4.2/MacPorts-2.4.2.tar.gz`
