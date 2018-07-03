@@ -11,8 +11,8 @@
                ".    "*$$$$SP     V$o..o$$. .$$$b
                 "$$o. .$$$$$o. ...A$$$$$$$$$$$$$$b
           ""bo.   "*$$$$$$$$$$$$$$$$$$$$P*$$$$$$$$:
-             "$$.    V$$$$$$$$$P"**""*"'   VP  * "l                Tweak's Woefully Wonderful Command Line Tool Reference Library Thing:
-               "$$$o.4$$$$$$$$X					                            Now you'll never need to look anywhere else
+             "$$.    V$$$$$$$$$P"**""*"'   VP  * "l         Tweak's Woefully Wonderful Command Line Tool Reference Library Thing:
+               "$$$o.4$$$$$$$$X					     Now you'll never need to look anywhere else
                 "*$$$$$$$$$$$$$AoA$o..oooooo..           .b
                        .X$$$$$$$$$$$P""     ""*oo,,     ,$P
                       $$P""V$$$$$$$:    .        ""*****"
@@ -57,11 +57,9 @@ cd MacPorts-2.4.2
 This is the typical process flow of developing, tweaking, and deploying new or updated terraform code
 
 1. Select the workspace you want to use and then initialize it
-```bash
-terraform workspace select <workspace>
+`terraform workspace select <workspace>`
 
-terraform init
-```
+`terraform init`
 
 2. If you have tweaked anything in your terraform code, then use `terraform refresh` to tell terraform to apply the updates
 
@@ -81,9 +79,7 @@ terraform plan \
 ```
 
 4. Apply the execution plan with `terraform apply`
-```bash
-terraform apply out.plan
-```
+`terraform apply out.plan`
 
 1. If you need to import variable files into the workspace, use `terraform import`
 ```bash
@@ -96,25 +92,18 @@ terraform import \
 #               PYTHON STUFF            #
 
 ### Install virtualenv for creating python runtime environment
-```bash
-pip install virtualenv
-sudo pip3 install virtualenv
-```
+`pip install virtualenv`
+
+`sudo pip3 install virtualenv`
 
 ### Create a virtual runtime environment for running, testing, and debugging code that requires specific libraries
-```bash
-python -m virtualenv <env_name> --no-site-packages
-```
+`python -m virtualenv <env_name> --no-site-packages`
 
 ### Activate the newly created runtime environment
-```bash
-source <env_name>/bin/activate
-```
+`source <env_name>/bin/activate`
 
 ### Deactivate either when done with the envrionment or the project associated with the environment
-```bash
-deactivate
-```
+`deactivate`
 
 #	    				KOMMAND STUFF			      #
 
@@ -128,9 +117,7 @@ sudo docker ps -a | grep -i chatbot
 	#	5adfbd913a01        komand_chatbot/chatbot_slack:1.0.0   "/komand/plugins/bin…"   24 hours ago        Exited (1) 43 seconds ago                       ACTION-komand_chatbot-chatbot_slack-1.0.0-6b0bb9e1-0c2f-4034-9716-9274460d9cb1
 ```
 
-```bash 
-sudo docker logs -f <HASH>
-```
+`sudo docker logs -f <HASH>`
 
 
 #	     					MISC STUFF			      #
