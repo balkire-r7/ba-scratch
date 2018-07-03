@@ -50,6 +50,16 @@
 
 `./configure && make && sudo make install`
 
+#	      KERNEL STUFF	            #
+
+#### Menu entries
+This will use awk to print an itemized list of the current available menu entries in grub prefixed by an index number
+
+`awk -F\' '/menuentry / { print i++, $2}' /boot/grub/grub.cfg`
+
+This will set the default menu entry in grub that every time you boot the machine, it'll boot into the kernel you chose
+
+`grub-set-default <menuentry>`
 
 #	      TERRAFORM STUFF	            #
 
