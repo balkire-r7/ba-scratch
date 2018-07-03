@@ -77,7 +77,7 @@ This is the typical process flow of developing, tweaking, and deploying new or u
 ```bash
 terraform refresh \
     --var-file=path-to-global.tfvars \
-    --var-file=path-to-stage.tfvars 
+    --var-file=path-to-<env>.tfvars 
 ```
 
 1. Create the execution plan with `terraform plan`
