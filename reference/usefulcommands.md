@@ -34,22 +34,21 @@
 `ruby -e "$(curl -fsSL https://raw.github.com/whatever.sh)"`
 
 #### ...or you could be lazy and just use Brew
-```bash
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install wget --with-libressl
-```
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+`brew install wget --with-libressl`
+
 
 #### ...you could also do more work, be sort of oldschool and use Macports
-```bash
-wget https://github.com/macports/macports-base/releases/download/v2.4.2/MacPorts-2.4.2.tar.gz
+`wget https://github.com/macports/macports-base/releases/download/v2.4.2/MacPorts-2.4.2.tar.gz`
 
-tar xzvf MacPorts-2.4.2.tar.gz
+`tar xzvf MacPorts-2.4.2.tar.gz`
 
-cd MacPorts-2.4.2
+`cd MacPorts-2.4.2`
 
-./configure && make && sudo make install
-```
+`./configure && make && sudo make install`
+
 
 #	      TERRAFORM STUFF	            #
 
