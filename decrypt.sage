@@ -27,3 +27,6 @@ for i in range(e):
     out.write(str(bi)+'\n')
     out.write(str(ci)+'\n')
     out.write(str(ni)+'\n')
+
+# m='\xa0\xce\x56\xf1\x91\xee\x4a\xdb\xb1\x03\xd0\x93\x22\x3e\x21\x8e'
+# print "Message:  %s" % hex(m)[:].rstrip('L').decode("hex")
